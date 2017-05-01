@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A7C9715F91B48D312933AED /* Pods_testOCRAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD36B0B0FACEC530C99C1F3 /* Pods_testOCRAppTests.framework */; };
 		5CFB31C01EB7DC6A007C9872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB31BF1EB7DC6A007C9872 /* AppDelegate.swift */; };
 		5CFB31C21EB7DC6A007C9872 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB31C11EB7DC6A007C9872 /* ViewController.swift */; };
 		5CFB31C51EB7DC6A007C9872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFB31C31EB7DC6A007C9872 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 		5CFB31D81EB7DC6A007C9872 /* testOCRAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB31D71EB7DC6A007C9872 /* testOCRAppTests.swift */; };
 		5CFB31E31EB7DC6A007C9872 /* testOCRAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB31E21EB7DC6A007C9872 /* testOCRAppUITests.swift */; };
 		5CFB31F11EB7DD36007C9872 /* testOCRApp in Resources */ = {isa = PBXBuildFile; fileRef = 5CFB31F01EB7DD36007C9872 /* testOCRApp */; };
+		660B4FAA61D324996B0BE4C1 /* Pods_testOCRApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EE72D447848B2C31449050 /* Pods_testOCRApp.framework */; };
+		B2B42A388D672128F353E2F4 /* Pods_testOCRAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DC1C19E4D1F497408D04C1 /* Pods_testOCRAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07EE72D447848B2C31449050 /* Pods_testOCRApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testOCRApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		247D562282B321E555DCE47D /* Pods-testOCRApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testOCRApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testOCRApp/Pods-testOCRApp.debug.xcconfig"; sourceTree = "<group>"; };
+		26DC1C19E4D1F497408D04C1 /* Pods_testOCRAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testOCRAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFB31BC1EB7DC6A007C9872 /* testOCRApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testOCRApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFB31BF1EB7DC6A007C9872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CFB31C11EB7DC6A007C9872 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +56,13 @@
 		5CFB31DE1EB7DC6A007C9872 /* testOCRAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testOCRAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFB31E21EB7DC6A007C9872 /* testOCRAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testOCRAppUITests.swift; sourceTree = "<group>"; };
 		5CFB31E41EB7DC6A007C9872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CFB31F01EB7DD36007C9872 /* testOCRApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = testOCRApp; sourceTree = "<group>"; };
+		5CFB31F01EB7DD36007C9872 /* testOCRApp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = testOCRApp; sourceTree = "<group>"; };
+		5E7E49ED7F2129BC2DC2D666 /* Pods-testOCRAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testOCRAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testOCRAppTests/Pods-testOCRAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BD36B0B0FACEC530C99C1F3 /* Pods_testOCRAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testOCRAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E67B4FE2D43E626D95C38FA /* Pods-testOCRAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testOCRAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testOCRAppTests/Pods-testOCRAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FBC3045CB9598F61F5713AB /* Pods-testOCRAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testOCRAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testOCRAppUITests/Pods-testOCRAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8341130614B758BB05C1EEC /* Pods-testOCRApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testOCRApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-testOCRApp/Pods-testOCRApp.release.xcconfig"; sourceTree = "<group>"; };
+		B28CDC6EDCA5E408AFEF6BC1 /* Pods-testOCRAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testOCRAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testOCRAppUITests/Pods-testOCRAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				660B4FAA61D324996B0BE4C1 /* Pods_testOCRApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7C9715F91B48D312933AED /* Pods_testOCRAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B42A388D672128F353E2F4 /* Pods_testOCRAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		033A794F2AC98C7C386413DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07EE72D447848B2C31449050 /* Pods_testOCRApp.framework */,
+				6BD36B0B0FACEC530C99C1F3 /* Pods_testOCRAppTests.framework */,
+				26DC1C19E4D1F497408D04C1 /* Pods_testOCRAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5CFB31B31EB7DC6A007C9872 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +111,8 @@
 				5CFB31D61EB7DC6A007C9872 /* testOCRAppTests */,
 				5CFB31E11EB7DC6A007C9872 /* testOCRAppUITests */,
 				5CFB31BD1EB7DC6A007C9872 /* Products */,
+				945C4C8A67834C03AFF11768 /* Pods */,
+				033A794F2AC98C7C386413DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +158,19 @@
 			path = testOCRAppUITests;
 			sourceTree = "<group>";
 		};
+		945C4C8A67834C03AFF11768 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				247D562282B321E555DCE47D /* Pods-testOCRApp.debug.xcconfig */,
+				A8341130614B758BB05C1EEC /* Pods-testOCRApp.release.xcconfig */,
+				8E67B4FE2D43E626D95C38FA /* Pods-testOCRAppTests.debug.xcconfig */,
+				5E7E49ED7F2129BC2DC2D666 /* Pods-testOCRAppTests.release.xcconfig */,
+				B28CDC6EDCA5E408AFEF6BC1 /* Pods-testOCRAppUITests.debug.xcconfig */,
+				8FBC3045CB9598F61F5713AB /* Pods-testOCRAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CFB31E71EB7DC6A007C9872 /* Build configuration list for PBXNativeTarget "testOCRApp" */;
 			buildPhases = (
+				FC6DFB3BA26BE7A9E82E5763 /* [CP] Check Pods Manifest.lock */,
 				5CFB31B81EB7DC6A007C9872 /* Sources */,
 				5CFB31B91EB7DC6A007C9872 /* Frameworks */,
 				5CFB31BA1EB7DC6A007C9872 /* Resources */,
+				FE05A5F8A48B4CDEB9F66F4C /* [CP] Embed Pods Frameworks */,
+				4AFE1757C5B5B8831E6FA1EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CFB31EA1EB7DC6A007C9872 /* Build configuration list for PBXNativeTarget "testOCRAppTests" */;
 			buildPhases = (
+				668349E508A51D6ABD5D9E00 /* [CP] Check Pods Manifest.lock */,
 				5CFB31CF1EB7DC6A007C9872 /* Sources */,
 				5CFB31D01EB7DC6A007C9872 /* Frameworks */,
 				5CFB31D11EB7DC6A007C9872 /* Resources */,
+				892EE5343B2C01E49608C356 /* [CP] Embed Pods Frameworks */,
+				DC7F9CC5852BBAF3A208DF1C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5CFB31ED1EB7DC6A007C9872 /* Build configuration list for PBXNativeTarget "testOCRAppUITests" */;
 			buildPhases = (
+				F1C6CB9B6247C0CB337F7A7E /* [CP] Check Pods Manifest.lock */,
 				5CFB31DA1EB7DC6A007C9872 /* Sources */,
 				5CFB31DB1EB7DC6A007C9872 /* Frameworks */,
 				5CFB31DC1EB7DC6A007C9872 /* Resources */,
+				B56966B06D730C61F7B7CB97 /* [CP] Embed Pods Frameworks */,
+				FA00872B7DC2907434D9983B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +248,7 @@
 				TargetAttributes = {
 					5CFB31BB1EB7DC6A007C9872 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GC6QEA5FTD;
 						ProvisioningStyle = Automatic;
 					};
 					5CFB31D21EB7DC6A007C9872 = {
@@ -260,6 +310,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AFE1757C5B5B8831E6FA1EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testOCRApp/Pods-testOCRApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		668349E508A51D6ABD5D9E00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		892EE5343B2C01E49608C356 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testOCRAppTests/Pods-testOCRAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B56966B06D730C61F7B7CB97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testOCRAppUITests/Pods-testOCRAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC7F9CC5852BBAF3A208DF1C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testOCRAppTests/Pods-testOCRAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C6CB9B6247C0CB337F7A7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA00872B7DC2907434D9983B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testOCRAppUITests/Pods-testOCRAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6DFB3BA26BE7A9E82E5763 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE05A5F8A48B4CDEB9F66F4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testOCRApp/Pods-testOCRApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5CFB31B81EB7DC6A007C9872 /* Sources */ = {
@@ -420,11 +608,18 @@
 		};
 		5CFB31E81EB7DC6A007C9872 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247D562282B321E555DCE47D /* Pods-testOCRApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GC6QEA5FTD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GPUImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SwiftOCR\"/**",
+				);
 				INFOPLIST_FILE = testOCRApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = waxedmoustache.testOCRApp;
+				PRODUCT_BUNDLE_IDENTIFIER = DBCwildpigs.AlamoFireTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -432,11 +627,18 @@
 		};
 		5CFB31E91EB7DC6A007C9872 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8341130614B758BB05C1EEC /* Pods-testOCRApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GC6QEA5FTD;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/GPUImage\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SwiftOCR\"/**",
+				);
 				INFOPLIST_FILE = testOCRApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = waxedmoustache.testOCRApp;
+				PRODUCT_BUNDLE_IDENTIFIER = DBCwildpigs.AlamoFireTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -444,6 +646,7 @@
 		};
 		5CFB31EB1EB7DC6A007C9872 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E67B4FE2D43E626D95C38FA /* Pods-testOCRAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +661,7 @@
 		};
 		5CFB31EC1EB7DC6A007C9872 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7E49ED7F2129BC2DC2D666 /* Pods-testOCRAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -472,6 +676,7 @@
 		};
 		5CFB31EE1EB7DC6A007C9872 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B28CDC6EDCA5E408AFEF6BC1 /* Pods-testOCRAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = testOCRAppUITests/Info.plist;
@@ -485,6 +690,7 @@
 		};
 		5CFB31EF1EB7DC6A007C9872 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FBC3045CB9598F61F5713AB /* Pods-testOCRAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = testOCRAppUITests/Info.plist;
@@ -515,6 +721,7 @@
 				5CFB31E91EB7DC6A007C9872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CFB31EA1EB7DC6A007C9872 /* Build configuration list for PBXNativeTarget "testOCRAppTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +730,7 @@
 				5CFB31EC1EB7DC6A007C9872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CFB31ED1EB7DC6A007C9872 /* Build configuration list for PBXNativeTarget "testOCRAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +739,7 @@
 				5CFB31EF1EB7DC6A007C9872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
