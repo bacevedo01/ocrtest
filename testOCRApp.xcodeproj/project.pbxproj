@@ -15,6 +15,7 @@
 		5CFB31CD1EB7DC6A007C9872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CFB31CB1EB7DC6A007C9872 /* LaunchScreen.storyboard */; };
 		5CFB31D81EB7DC6A007C9872 /* testOCRAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB31D71EB7DC6A007C9872 /* testOCRAppTests.swift */; };
 		5CFB31E31EB7DC6A007C9872 /* testOCRAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB31E21EB7DC6A007C9872 /* testOCRAppUITests.swift */; };
+		5CFB31F11EB7DD36007C9872 /* testOCRApp in Resources */ = {isa = PBXBuildFile; fileRef = 5CFB31F01EB7DD36007C9872 /* testOCRApp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5CFB31DE1EB7DC6A007C9872 /* testOCRAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testOCRAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFB31E21EB7DC6A007C9872 /* testOCRAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testOCRAppUITests.swift; sourceTree = "<group>"; };
 		5CFB31E41EB7DC6A007C9872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CFB31F01EB7DD36007C9872 /* testOCRApp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = testOCRApp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		5CFB31B31EB7DC6A007C9872 = {
 			isa = PBXGroup;
 			children = (
+				5CFB31F01EB7DD36007C9872 /* testOCRApp */,
 				5CFB31BE1EB7DC6A007C9872 /* testOCRApp */,
 				5CFB31D61EB7DC6A007C9872 /* testOCRAppTests */,
 				5CFB31E11EB7DC6A007C9872 /* testOCRAppUITests */,
@@ -238,6 +241,7 @@
 				5CFB31CD1EB7DC6A007C9872 /* LaunchScreen.storyboard in Resources */,
 				5CFB31CA1EB7DC6A007C9872 /* Assets.xcassets in Resources */,
 				5CFB31C51EB7DC6A007C9872 /* Main.storyboard in Resources */,
+				5CFB31F11EB7DD36007C9872 /* testOCRApp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
